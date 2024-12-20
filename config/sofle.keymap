@@ -5,7 +5,6 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // Velocidad del cursor
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // Velocidad de desplazamiento
