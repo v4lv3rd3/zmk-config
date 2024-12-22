@@ -65,11 +65,11 @@
 
         layer_1 {
             bindings = <
-&kp F12        &kp F1            &kp F2                             &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8  &kp F9    &kp F10   &kp F11
-&trans         &trans            &trans                             &trans           &trans           &trans             &mmv MOVE_DOWN   &trans           &kp END          &trans  &kp LBKT  &kp RBKT  &kp PAGE_UP
-&trans         &rgb_ug RGB_TOG   &rgb_ug RGB_COLOR_HSB(0,0,100)     &trans           &trans           &trans             &mmv MOVE_LEFT   &trans           &trans           &trans  &kp APOS  &kp BSLH  &kp PAGE_DOWN
-&kp LESS_THAN  &kp GREATER_THAN  &rgb_ug RGB_COLOR_HSB(285,100,50)  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans  &trans    &trans    &trans
-&kp C_MUTE     &trans            &trans                             &trans           &trans           &trans             &trans           &trans           &trans           &trans  &trans    &trans
+&kp F12     &kp F1           &kp F2                             &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8  &kp F9    &kp F10   &kp F11
+&trans      &trans           &trans                             &trans           &trans           &trans             &mmv MOVE_DOWN   &trans           &kp END          &trans  &kp LBKT  &kp RBKT  &kp PAGE_UP
+&trans      &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(0,0,100)     &trans           &trans           &trans             &mmv MOVE_LEFT   &trans           &trans           &trans  &kp APOS  &kp BSLH  &kp PAGE_DOWN
+&kp LT      &kp LS(GT)       &rgb_ug RGB_COLOR_HSB(285,100,50)  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans  &trans    &trans    &trans
+&kp C_MUTE  &trans           &trans                             &trans           &trans           &trans             &trans           &trans           &trans           &trans  &trans    &trans
             >;
 
             display-name = "layer1";
