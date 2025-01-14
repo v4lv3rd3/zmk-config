@@ -99,13 +99,12 @@
 
         layer_4_colors {
             bindings = <
-&rgb_ug RGB_COLOR_HSB(183,100,51)  &rgb_ug RGB_COLOR_HSB(201,100,50)  &rgb_ug RGB_COLOR_HSB(279,97,50)  &rgb_ug RGB_COLOR_HSB(302,100,50)  &rgb_ug RGB_COLOR_HSB(360,100,50)  &rgb_ug RGB_COLOR_HSB(28,100,50)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&rgb_ug RGB_COLOR_HSB(59,100,50)   &rgb_ug RGB_COLOR_HSB(117,100,50)  &trans                            &trans                             &trans                             &trans                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans                             &trans                             &trans                            &trans                             &trans                             &trans                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans                             &trans                             &trans                            &trans                             &trans                             &trans                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans                             &trans                             &trans                            &trans                             &trans                             &trans                              &trans  &trans  &trans  &trans  &trans  &trans
+&rgb_ug RGB_COLOR_HSB(183,100,51)  &rgb_ug RGB_COLOR_HSB(201,100,50)  &rgb_ug RGB_COLOR_HSB(279,97,50)  &rgb_ug RGB_COLOR_HSB(302,100,50)  &rgb_ug RGB_COLOR_HSB(360,100,50)  &rgb_ug RGB_COLOR_HSB(28,100,50)    &rgb_ug RGB_BRI  &trans  &trans  &trans  &trans  &trans  &trans
+&rgb_ug RGB_COLOR_HSB(59,100,50)   &rgb_ug RGB_COLOR_HSB(117,100,50)  &trans                            &trans                             &trans                             &trans                              &rgb_ug RGB_BRD  &trans  &trans  &trans  &trans  &trans  &trans
+&rgb_ug RGB_EFR                    &rgb_ug RGB_EFF                    &trans                            &trans                             &trans                             &trans                              &rgb_ug RGB_SPD  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                             &trans                             &trans                            &trans                             &trans                             &trans                              &rgb_ug RGB_SPI  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                             &trans                             &trans                            &trans                             &trans                             &trans                              &trans           &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
 };
-
