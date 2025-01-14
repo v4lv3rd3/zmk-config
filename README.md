@@ -17,5 +17,5 @@
 ![](assets/images/Layer0.png "Layer 0")
 ![](assets/images/Layer1.png "Layer 1")
 ![](assets/images/Layer2.png "Layer 2")
-assets/images/![](assets/images/Layer3.png "Layer 3")
+![](assets/images/Layer3.png "Layer 3")
 ![](assets/images/Layer4.png "Layer 4")
