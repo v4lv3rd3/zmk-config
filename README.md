@@ -12,8 +12,6 @@
 --- 
 ## My config
 
-[mi repo](https://github.com/v4lv3rd3/zmk-config)
-
 ![](assets/images/Layer0.png "Layer 0")
 ![](assets/images/Layer1.png "Layer 1")
 ![](assets/images/Layer2.png "Layer 2")
